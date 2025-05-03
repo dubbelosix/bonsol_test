@@ -1,0 +1,20 @@
+[package]
+name = "iterated_hashing"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.zkprogram]
+input_order = ["Public", "Public"]
+
+[workspace]
+
+[dependencies]
+risc0-zkvm = { git = "https://github.com/anagrambuild/risc0", branch = "v1.0.1-bonsai-fix", default-features = false, features = [
+    "std",
+    "getrandom",
+] }
+bytemuck = "1.19.0"
+
+[dependencies.sha2]
+git = "https://github.com/risc0/RustCrypto-hashes"
+tag = "sha2-v0.10.6-risczero.0"
