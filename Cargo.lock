@@ -488,7 +488,7 @@ checksum = "8d696c370c750c948ada61c69a0ee2cbbb9c50b1019ddb86d9317157a99c2cae"
 
 [[package]]
 name = "bonsol-interface"
-version = "0.4.5"
+version = "0.5.0"
 dependencies = [
  "arrayref",
  "bonsol-schema",
@@ -504,7 +504,7 @@ dependencies = [
 
 [[package]]
 name = "bonsol-schema"
-version = "0.4.5"
+version = "0.5.0"
 dependencies = [
  "bytemuck",
  "flatbuffers",
@@ -518,7 +518,6 @@ name = "bonsol_test"
 version = "0.1.0"
 dependencies = [
  "bonsol-interface",
- "bonsol-schema",
  "bonsol_test_data",
  "bonsol_test_program",
  "byteorder",

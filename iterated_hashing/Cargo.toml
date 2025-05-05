@@ -9,10 +9,11 @@ input_order = ["Public", "Public"]
 [workspace]
 
 [dependencies]
-risc0-zkvm = { git = "https://github.com/anagrambuild/risc0", branch = "v1.0.1-bonsai-fix", default-features = false, features = [
-    "std",
-    "getrandom",
-] }
+#risc0-zkvm = { git = "https://github.com/anagrambuild/risc0", branch = "v1.0.1-bonsai-fix", default-features = false, features = [
+#    "std",
+#    "getrandom",
+#] }
+risc0-zkvm = { version = "2.0.0",  default-features = false, features = ["std", "getrandom"] }
 bytemuck = "1.19.0"
 
 [dependencies.sha2]

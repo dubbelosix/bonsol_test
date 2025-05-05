@@ -10,7 +10,6 @@ solana-client = "2.0.23"
 solana-program = "2.0.23"
 bonsol_test_program = { path = "program" }
 bonsol_test_data = { path = "bonsol_test_data" }
-bonsol-schema = { path = "../bonsol/schemas" }
 
 bonsol-interface = { path = "../bonsol/onchain/interface"}
 rand = "0.8.5"

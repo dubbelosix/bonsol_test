@@ -216,7 +216,7 @@ dependencies = [
 
 [[package]]
 name = "bonsol-interface"
-version = "0.4.5"
+version = "0.5.0"
 dependencies = [
  "arrayref",
  "bonsol-schema",
@@ -230,7 +230,7 @@ dependencies = [
 
 [[package]]
 name = "bonsol-schema"
-version = "0.4.5"
+version = "0.5.0"
 dependencies = [
  "bytemuck",
  "flatbuffers",

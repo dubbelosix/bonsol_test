@@ -46,7 +46,7 @@ bonsol build -z iterated_hashing
 * Check `iterated_hashing/manifest.json` and get the image-id. Ensure the same image-id is used in the below copy command
 * Upload the compiled riscv32 ELF to S3. Replace the bucket with your own
 ```
-aws s3 cp iterated_hashing/target/riscv-guest/riscv32im-risc0-zkvm-elf/docker/iterated_hashing/iterated_hashing s3://rubicon-images/iterated_hashing-d56c18db0f7e17ba3dbb7336ee4a0bebd5e4216d9b9d30133322175cf6c4ac79
+aws s3 cp iterated_hashing/target/riscv32im-risc0-zkvm-elf/docker/iterated_hashing.bin s3://rubicon-images/iterated_hashing-a50a57236235f45a610d47417c3489ab097909986a625f74a5c3a9ea4fa01a53
 bonsol deploy url -m iterated_hashing/manifest.json --url https://rubicon-images.s3.amazonaws.com -y
 ```
 * The same image id also needs to be updated in `program/src/lib.rs` as the value of `BONSOL_IMAGE_ID`
