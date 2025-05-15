@@ -1,3 +1,5 @@
+This repo is provided as an example. Feel free to fork, modify, or reuse it 
+
 # Simple Bonsol Test program
 
 In order to demonstrate bonsol's benefit in compute compression, we're going to zk prove an iterated hashing function.
