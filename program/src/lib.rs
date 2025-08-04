@@ -9,4 +9,4 @@ pub struct TriggerProof {
     pub execution_id: String,
 }
 
-pub const BONSOL_IMAGE_ID: &'static str = "a50a57236235f45a610d47417c3489ab097909986a625f74a5c3a9ea4fa01a53";
+pub const BONSOL_IMAGE_ID: &'static str = "598a430e71a8b4a8f6aecc944e484cb555522f2dc66375b1cbe9ea88790e6b9c";

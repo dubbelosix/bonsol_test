@@ -13,7 +13,7 @@ input_order = ["Public", "Public"]
 #    "std",
 #    "getrandom",
 #] }
-risc0-zkvm = { version = "2.0.0",  default-features = false, features = ["std", "getrandom"] }
+risc0-zkvm = { version = "2.3.1",  default-features = false, features = ["std", "getrandom"] }
 bytemuck = "1.19.0"
 
 [dependencies.sha2]

@@ -10,7 +10,7 @@ no-entrypoint = []
 test-sbf = []
 
 [dependencies]
-solana-program = "2.0.23"
+solana-program = "2.3"
 bonsol-schema = { path = "../../bonsol/schemas" }
 bonsol-interface = { path = "../../bonsol/onchain/interface", features = ["on-chain"],  default-features = false}
 hex = "0.4.3"

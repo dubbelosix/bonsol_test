@@ -1,11 +1,11 @@
 {
   "name": "iterated_hashing",
   "binaryPath": "iterated_hashing/target/riscv32im-risc0-zkvm-elf/docker/iterated_hashing.bin",
-  "imageId": "a50a57236235f45a610d47417c3489ab097909986a625f74a5c3a9ea4fa01a53",
+  "imageId": "598a430e71a8b4a8f6aecc944e484cb555522f2dc66375b1cbe9ea88790e6b9c",
   "inputOrder": [
     "Public",
     "Public"
   ],
-  "signature": "56FBtorF1E8SkAUiHMfB9HbkFmjmtFgGigrRHVcV2TzuYXTpacNHp2KvtXdnBVbi1RTQUBCgiqwGPMxxkt4tdWXx",
-  "size": 143480
+  "signature": "zdCUwWi4JYWachhurwd2kETErw2AdojVkTyQsR2ZdffYjULgYbxo5ZrGJZKpfqrRuxJD1gVSmBJKfvxLJCSwmhi",
+  "size": 147480
 }
